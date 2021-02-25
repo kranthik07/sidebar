@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Navigation{
+  position: fixed;
+  width: 20%;
+  height: 100vh;
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+
+}
+
+.Nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+
+
+
+  
+}
+
+a {
+  height: 30px;
+  background-color:white;
+ width: 100%;
+  border: 1px solid black;
+  text-align: center;
+
+ 
+}
